@@ -1,0 +1,46 @@
+/* ############# GLOBAL ############# */
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+.btn-primary {
+  color: #fff !important; }
+
+html {
+  font-family: "Open Sans", sans-serif; }
+
+/* ############# CAROUSEL ############# */
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  text-shadow: 2px 2px 2px black}
+
+.carousel-inner, .carousel-item {
+  height: 100vh; }
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover; }
+
+/* ############# CONTACT ############# */
+.contact, .contact .card {
+  background: #eff2f5;
+  border: none; }
+
+.contact .disclaimer {
+  font-size: 11px;
+  color: #92979b; }
+
+input {
+  padding: 10px;
+  border: solid #b8b8b8 1px; }
+
+.contact i {
+  font-size: 24px; }
+
+/* ############# FOOTER ############# */
+footer {
+  background: #d0dbe1; }
